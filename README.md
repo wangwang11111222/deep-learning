@@ -1,4 +1,4 @@
-# OMSCS Deep Learning Projects
+# Deep Learning Projects
 
 Curated deep-learning code from sequence modeling and final-project experiments.
 
