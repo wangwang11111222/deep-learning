@@ -1,38 +1,108 @@
-# Local environments
+# ---------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---------------------------------------------------------------------------
+# Packaging / distribution
+# ---------------------------------------------------------------------------
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
 .env
 .venv/
 venv/
+ENV/
 env/
-__pycache__/
-*.py[cod]
+env.bak/
+venv.bak/
 
-# IDE and OS files
+# ---------------------------------------------------------------------------
+# Testing / linting / typing caches
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+nosetests.xml
+
+# ---------------------------------------------------------------------------
+# Notebooks
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ---------------------------------------------------------------------------
+# Model checkpoints, datasets and run artifacts
+# ---------------------------------------------------------------------------
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+data/
+datasets/
+raw/
+raw_*/
+outputs/
+runs/
+logs/
+wandb/
+lightning_logs/
+checkpoints/
+.cache/
+*.zip
+*.tar.gz
+*.7z
+
+# ---------------------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------------------
 .idea/
 .vscode/
+*.swp
 .DS_Store
 Thumbs.db
 
-# Large or private data artifacts
-data/
-raw/
-raw_*/
-*.csv.bak
-*.sas7bdat
-*.h5
-*.hdf5
-*.parquet
-*.pkl
-*.pt
-*.pth
-*.mat
-*.zip
-*.rar
-*.7z
-*.ova
-*.mp4
-*.mov
-
-# Credentials and local notebooks
+# ---------------------------------------------------------------------------
+# Credentials
+# ---------------------------------------------------------------------------
 *.key
 *.pem
 *token*

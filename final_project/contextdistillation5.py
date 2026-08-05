@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/17SrfDiaXqqy3IHW89jqQw4b2Joh5eSnf
 """
 
-!pip install transformers datasets
-
-!pip install accelerate -U
-
 import torch
 from torch.nn import functional as F
 from torch.utils.data import DataLoader, TensorDataset
